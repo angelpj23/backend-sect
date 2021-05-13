@@ -2,7 +2,7 @@ const { UserRepository } = require("../../../src/repositories");
 const mockingoose = require("mockingoose").default;
 const { User } = require("../../../src/models");
 let {
-  UserModelMock: { users, user }
+  UserModelMock: { users, user },
 } = require("../../mocks");
 
 describe("User Repository Tests", () => {
@@ -34,7 +34,7 @@ describe("User Repository Tests", () => {
   });
 
   it("Should return a user collection", async () => {
-    users = users.map(user => {
+    users = users.map((user) => {
       delete user.password;
       return user;
     });
@@ -52,7 +52,7 @@ describe("User Repository Tests", () => {
     mockingoose(User).toReturn(_user, "findOneAndUpdate");
     const _userRepository = new UserRepository({ User });
     const expected = await _userRepository.update(user._id, {
-      name: "Marluan"
+      name: "Angel",
     });
 
     expect(JSON.parse(JSON.stringify(expected))).toMatchObject(_user);

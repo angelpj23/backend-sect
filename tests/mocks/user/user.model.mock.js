@@ -1,22 +1,22 @@
 module.exports = {
   user: {
     _id: "507f191e810c19729de860ea",
-    name: "Marluan",
-    username: "Marluan03",
-    password: "mystrongPassword"
+    name: "Angel",
+    username: "Angelpj23",
+    password: "angel1123",
   },
   users: [
     {
       _id: "507f191e810c19729de860ea",
       name: "Marluan",
       username: "Marluan03",
-      password: "mystrongPassword"
+      password: "mystrongPassword",
     },
     {
       _id: "507f191e810c19729de860eb",
       name: "Erick",
       username: "Erick_34",
-      password: "mystrongPassword"
-    }
-  ]
+      password: "mystrongPassword",
+    },
+  ],
 };

@@ -1,18 +1,18 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "Backend ::ShareYourIdea:: App",
-    "version": "1.0.0",
-    "title": "Swagger ShareYourIdea",
+    "description": "Comparte tus ideas, comparte tu mundo 🌍",
+    "version": "1.2.1",
+    "title": "Ideas 💡 App",
     "contact": {
-      "email": "marluanespiritusantoguerrero@gmail.com"
+      "email": "angelking2k16@gmail.com"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "host": "localhost:5000",
+  "host": "localhost:1999",
   "basePath": "/v1/api",
   "tags": [
     {

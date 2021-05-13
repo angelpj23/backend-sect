@@ -5,14 +5,14 @@
     "version": "1.0.0",
     "title": "Swagger ShareYourIdea",
     "contact": {
-      "email": "marluanespiritusantoguerrero@gmail.com"
+      "email": "angelking2k16@gmail.com"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "host": "localhost:5000",
+  "host": "localhost:1999",
   "basePath": "/v1/api",
   "tags": [
     {

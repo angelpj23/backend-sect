@@ -1,0 +1,3 @@
+npm i express express-async-errors awilix cors compression helmet bcryptjs jsonwebtoken memory-cache mongoose swagger-ui-express
+npm i -D dotenv nodemon mockingoose jest
+npm i mongoose-autopopulate
